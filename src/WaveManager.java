@@ -37,6 +37,10 @@ public class WaveManager {
 	}
 	
 	public void run(){
+		
+		//check external inputs, send relevant info to services
+		//let services decide if action is appropriate
+		
 		if(speed>10){
 			if(breakService.checkBreak(breakAmount)){
 				breakService.sendControlMessage(breakServiceGroup);

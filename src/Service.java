@@ -18,6 +18,9 @@ public class Service {
 	}
 	
 	//Class Methods
+	
+	//SENDER
+	
 	public void sendMessage(String type, String serviceGroup, String message){
 		try{
 			//Preparing packet envelope
